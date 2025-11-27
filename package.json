@@ -6,9 +6,8 @@
     "type": "git",
     "url": "https://github.com/yc-w-cn/nest-pagination.git"
   },
-  "private": true,
   "keywords": [
-    "longzai-cloud",
+    "yc-w-cn",
     "nest",
     "pagination"
   ],
