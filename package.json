@@ -1,6 +1,6 @@
 {
   "name": "@yc-w-cn/nest-pagination",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nest.js 分页模块，提供分页请求和响应数据传输对象以及Swagger文档装饰器",
   "repository": {
     "type": "git",
