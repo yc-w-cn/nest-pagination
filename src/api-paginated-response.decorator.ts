@@ -1,10 +1,11 @@
 import { applyDecorators, Type } from '@nestjs/common';
-import { ApiOkResponse, getSchemaPath } from '@nestjs/swagger';
+import { ApiExtraModels, ApiOkResponse, getSchemaPath } from '@nestjs/swagger';
 
 import { PaginatedResponseDto } from './paginated-response.dto';
 
-export const ApiPaginatedResponse = (model: Type<any>) => {
+export const ApiPaginatedResponse = (model: Type) => {
   return applyDecorators(
+    ApiExtraModels(model), // 自动注册
     ApiOkResponse({
       schema: {
         allOf: [
